@@ -15,7 +15,7 @@ from flask import redirect, jsonify, url_for, flash
 
 app = Flask(__name__)
 CLIENT_ID = json.loads(
-    open('/var/www/finalproject/finalprojectclient_secrets.json', 'r').read())['web']['client_id']
+    open('/var/www/FlaskApp/ItemCatalogProject/client_secrets.json', 'r').read())['web']['client_id']
 APPLICATION_NAME = "Restaurant Menu Application"
 # Connect to Database and create database session
 # engine = create_engine('sqlite:///restaurantmenu.db')

@@ -70,6 +70,8 @@ sudo ufw allow 80/tcp
 sudo ufw allow 123/udp
 sudo ufw enable
 
+Used this command to log in as a grader: ssh grader@18.130.36.145 -p 2200 -i ~/.ssh/id_rsa
+
 THIRD PARTY RESOURCES USED:
 ---------------------------
 * AMAZON Lightsail web service 
